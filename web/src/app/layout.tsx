@@ -14,8 +14,22 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Smart Store — Bill Scan & Price Tracker",
-  description: "Scan bills, track prices by market, analytics dashboard",
+  title: "Mamgai Store — AI-Powered ERP",
+  description: "Scan supplier bills, track inventory, manage suppliers, record daily sales — everything in one smart dashboard.",
+  icons: {
+    icon: [
+      { url: "/favicon.png", type: "image/png" },
+    ],
+    apple: [
+      { url: "/apple-icon.png", type: "image/png" },
+    ],
+    shortcut: "/favicon.png",
+  },
+  openGraph: {
+    title: "Mamgai Store — AI-Powered ERP",
+    description: "Smart store management for kirana stores",
+    images: [{ url: "/icon.png" }],
+  },
 };
 
 export const viewport: Viewport = {
