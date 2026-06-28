@@ -22,7 +22,7 @@ import {
   UserCog,
 } from "lucide-react";
 
-const items: { href: string; labelKey: DictionaryKey; icon: any }[] = [
+const items: { href: string; labelKey: DictionaryKey; icon: React.ElementType }[] = [
   { href: "/app/dashboard", labelKey: "dashboard", icon: LayoutDashboard },
   { href: "/app/bill-scan", labelKey: "billScanner", icon: Receipt },
   { href: "/app/search", labelKey: "itemSearch", icon: Search },

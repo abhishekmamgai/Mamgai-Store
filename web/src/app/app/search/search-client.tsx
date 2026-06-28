@@ -38,6 +38,7 @@ export function SearchClient({ markets, categories }: Props) {
 
   useEffect(() => {
     doSearch(1);
+    // eslint-disable-next-line
     setPage(1);
   }, [query, marketId, category, sort]); // eslint-disable-line react-hooks/exhaustive-deps
 
